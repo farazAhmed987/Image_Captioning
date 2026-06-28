@@ -1,0 +1,17 @@
+.ipynb_checkpoints
+.DS_Store
+# Python virtual environments and cache
+__pycache__/
+*.py[cod]
+.venv/
+
+# Deep Learning Model & Parameter Binaries (Too large for GitHub)
+model_checkpoints/*.keras
+model_checkpoints/*.h5
+pickled_features/*.pkl
+coco_features.h5
+
+# Storage system states and temporary data
+state.db
+training_log.json
+static/uploads/*
